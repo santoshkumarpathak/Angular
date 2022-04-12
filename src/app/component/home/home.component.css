@@ -1,0 +1,118 @@
+
+body, html{
+    margin: 0;
+    padding: 0;
+}
+ 
+.top-collection{
+
+    justify-content: center;
+    align-items: center;
+}
+
+.top-collection-content{
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.ci:hover .fixed-content{
+    display: flex;
+    position:absolute;
+    width: auto !important;
+    height: auto !important;
+    font-weight: 500;
+    color: black;
+    opacity: 1;
+    z-index: 1;
+    font-size: 1.2rem;
+    font-family: "Times New Roman", Times, serif;
+    background-color: transparent;
+    padding: 1rem;
+    /* display: none; */
+}
+
+.ci:hover .fixed-content-footer{
+    display: flex;
+    position:absolute;
+    width: auto !important;
+    height: auto !important;
+    font-weight: 500;
+    color: black;
+    opacity: 1;
+    z-index: 1;
+    font-size: 1.2rem;
+    font-family: "Times New Roman", Times, serif;
+    background-color: transparent;
+    padding: 1rem;
+    bottom: 1em;
+    right: 1em;
+}
+
+.collection-item:hover{
+    opacity: .3;
+    cursor: pointer;
+}
+.fixed-content, .fixed-content-footer{
+    display: none;
+}
+
+.new-products .products{
+    
+}
+
+
+
+.top-collection div > div{
+    background-color: #ebe8e1;
+    width: 100%;
+    height: 100%;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.flex-dir-col{
+    flex-direction: row;
+}
+
+.flex-dir-row{
+    flex-direction: column;
+}
+
+.width-100{
+    width: 100%;
+}
+
+@media  screen and (min-width: 400px) {
+    .top-collection-content{
+        padding: 2rem;
+    }
+    .top-collection div> div{
+        background-color: rgb(240, 234, 234);
+        width: 20vw;
+        height: 16vw;
+    }
+
+    .flex-dir-row{
+        flex-direction: row;
+    }
+  }
+
+
+
+
+
+  @default-color: #333;
+@default-bg: #e0eff0;
+
+@box-color: #fff;
+@box-bg: rgba(0,0,0,0.75);
+
+@nav-bg: rgba(255, 255, 255, 0.25);
+@nav-link-border: rgba(255, 255, 255, 0.5);
+@nav-link-border-active: #000;
+@nav-link-border-hover: rgba(0, 0, 0, 0.35);

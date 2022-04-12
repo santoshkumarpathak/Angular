@@ -1,0 +1,29 @@
+h3{
+    background-color: rgb(164, 185, 185);
+    padding: 8px;    
+}
+
+.container{
+    margin-top: none;
+    border: 1px solid black;
+    margin: none;
+}
+
+.registration-form .create-account{
+    width: 50%;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #5791ff;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    margin-left: 50%;
+
+}
+.registration-form .item{
+	border-radius: 20px;
+    margin-bottom: 25px;
+    padding: 10px 20px;
+}
